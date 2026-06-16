@@ -46,6 +46,7 @@ int main()
 
     while(1)
     {
+        printf("manager running...\n");
         sleep(5);
     }
 
