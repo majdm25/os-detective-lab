@@ -43,12 +43,12 @@ int main()
     printf("CPU Worker PID    : %d\n", cpu_pid);
     printf("Memory Worker PID : %d\n", mem_pid);
     printf("IO Worker PID     : %d\n", io_pid);
-
-    while(1)
-    {
-        printf("manager running...\n");
-        sleep(5);
+while(1)
+{
+    for(int i = 0; i < 100000000; i++) {
+        int x = i * i;
     }
+}
 
     return 0;
 }
